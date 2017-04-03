@@ -226,7 +226,7 @@ public class DisplayOBJActivity extends PApplet {
     @Override
     public void setup() {
         background(0);
-        rocket = loadShape("escalera.obj");
+        rocket = loadShape("im.obj");
         textSize(32);
         textImage = createTextGraphics("PRUEBA");
         gridImage = createGridShape();
